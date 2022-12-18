@@ -33,6 +33,7 @@ for(let x=0; x<paragraphsArr.length;x++){
      for(let z=0; z<textArr.length; z++){
        for(let h=0;h<textArr[z].length;h++){
         if(textArr[z][h]==paragraphsArr[x][y]){
+          
           if(match[z]!=null)
             match[z]+=1;
           else
